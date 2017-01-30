@@ -1,0 +1,51 @@
+/* Header */
+#nav-list {
+  margin-top: 10px;
+  background-color: #A2B3C4;
+}
+#nav-list a {
+  color: #5A1C49;
+  text-align: center;
+  font-weight: bold;
+  font-size:1.5em;
+  border-style: 1px solid;
+}
+#nav-list a:hover {
+  background: #D7E7E7;
+}
+
+#container {
+  margin: 15px 0 15px 0;
+}
+
+section {
+  background-color: #A2B3C4;
+  padding : 10px;
+  margin-top:15px;
+}
+/* End Header */
+
+section h3 {
+  margin-top : 0px;
+}
+
+section a {
+  display:block;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+.section-title {
+  font-size: 1.5em;
+  font-weight:bold;
+}
+
+@media (max-width: 768px) {
+  #main-content {
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
